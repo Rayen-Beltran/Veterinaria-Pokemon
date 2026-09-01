@@ -6,6 +6,36 @@
     <title>Registro Entrenador</title>
 </head>
 <body>
+    <div id="Titulo">
+        <h1>¡Bienvenido nuevo entrenador!</h1>
+    </div>
+
+    <div id="Datos">
+        <h2>Por favor ingrese sus datos</h2>
+        <br>
+        <h3>Nombre completo</h3>
+        <div>
+            <p id="nombre"></p>
+        </div>
+
+        <form action="/enviar" method="post">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="correo">Correo</label>
+            <input type="text" id="correo" name="correo">
+
+            <label for="contraseña">Contraseña</label>
+            <input type="text" id="contraseña" name="contraseña">
+
+            <label for="contraseña2">Confirmar contraseña</label>
+            <input type="text" id="contraseña2" name="contraseña2">
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+
     
 </body>
 </html>
