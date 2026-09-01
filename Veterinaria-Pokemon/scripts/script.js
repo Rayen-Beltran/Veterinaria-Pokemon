@@ -1,7 +1,0 @@
-function inyectarHeader(){
-
-}
-
-function inyectarFooter(){
-    
-}
