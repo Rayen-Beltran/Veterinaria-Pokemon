@@ -4,38 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro Entrenador</title>
+    <link rel="stylesheet" href="/estilos/formStyle.css"
 </head>
 <body>
-    <div id="Titulo">
-        <h1>¡Bienvenido nuevo entrenador!</h1>
-    </div>
-
-    <div id="Datos">
-        <h2>Por favor ingrese sus datos</h2>
-        <br>
-        <h3>Nombre completo</h3>
-        <div>
-            <p id="nombre"></p>
+    <div id="caluga">
+        <div id="titulo">
+            <h1>¡Bienvenido nuevo entrenador!</h1>
         </div>
 
-        <form action="/enviar" method="post">
-            <label for="nombre">Nombre completo</label>
-            <input type="text" id="nombre" name="nombre">
+        <div id="datos">
+            <h2>Por favor ingrese sus datos</h2>
 
-            <label for="correo">Correo</label>
-            <input type="text" id="correo" name="correo">
+            <form action="/enviar" method="post" id="formulario">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre">
 
-            <label for="contraseña">Contraseña</label>
-            <input type="text" id="contraseña" name="contraseña">
+                <label for="correo">Correo</label>
+                <input type="text" id="correo" name="correo">
 
-            <label for="contraseña2">Confirmar contraseña</label>
-            <input type="text" id="contraseña2" name="contraseña2">
+                <label for="contraseña">Contraseña</label>
+                <input type="text" id="contraseña" name="contraseña">
 
-            <button type="submit">Enviar</button>
-        </form>
+                <label for="contraseña2">Confirmar contraseña</label>
+                <input type="text" id="contraseña2" name="contraseña2">
+
+
+                <label for="region">Elige una opción:</label>
+                    <select id="region" name="region">
+                        <option value="" disabled selected>-- Seleccione su conjunto residencial --</option>
+                        <option value="opcion1">Pueblo Paleta</option>
+                        <option value="opcion2">Ciudad Verde</option>
+                        <option value="opcion3">Ciudad Plateada</option>
+                        <option value="opcion4">Ciudad Celeste</option>
+                        <option value="opcion5">Ciudad Carmin</option>
+                        <option value="opcion6">Pueblo Lavanda</option>
+                        <option value="opcion7">Ciudad Azulona</option>
+                        <option value="opcion8">Ciudad Azafran</option>
+                        <option value="opcion9">Ciudad Fucsia</option>
+                        <option value="opcion10">Isla Canela</option>
+                    </select>
+
+
+                <button type="registrar">Registrar</button>
+            </form>
+
+        </div>
 
     </div>
-
     
 </body>
 </html>
