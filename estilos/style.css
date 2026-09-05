@@ -72,5 +72,13 @@ header{
     gap: 20px
 }
 
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2e8b57;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
 
 
