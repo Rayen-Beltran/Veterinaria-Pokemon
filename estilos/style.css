@@ -5,16 +5,13 @@ body{
 }
 
 .no-select {
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-.color{
-    color:#C42E18
 
-}
 h1{
     font-size: clamp(1.5rem, 1.221rem + 1.176vw, 2.25rem);
     line-height: clamp(1.75rem, 1.471rem + 1.176vw, 2.5rem);
@@ -30,8 +27,18 @@ header{
     align-items: center;
     justify-content: space-evenly;
     border-bottom: 0.5px solid #dfdfdf;
-    background-color: aliceblue;
+    background-color: #C85048;
     padding: 20px 0 40px 0;
+    color: #dfdfdf;
+}
+header a {
+    color: #dfdfdf;
+    text-decoration: none;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
 }
 
 #inicio{
@@ -76,9 +83,16 @@ header{
     display: inline-block;
     padding: 10px 20px;
     background-color: #2e8b57;
-    color: white;
     text-decoration: none;
     border-radius: 6px;
+    color: #dfdfdf;
+    text-decoration: none;
 }
 
 
+.imgPoke{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
