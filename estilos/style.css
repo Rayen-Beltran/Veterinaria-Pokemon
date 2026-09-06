@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -20,6 +22,13 @@ h1{
 h2{
     font-size: clamp(1rem, 0.721rem + 1.176vw, 1.75rem);
     line-height: clamp(1.25rem, 0.971rem + 1.176vw, 2rem);
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 header{
@@ -95,4 +104,24 @@ header a {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.seccion-nosotros {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: #fceee1;
+    padding: 40px;
+    margin-top: 30px;
+}
+.img-nosotros{
+    width: 400px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.texto-nosotros {
+    flex: 1;
+    text-align: left;
+    margin: 0;
 }
