@@ -27,11 +27,25 @@ h2{
 
 header{
     display: flex;
+    align-items:center;
+    justify-content:left;
+    border-bottom: 0.5px solid #dfdfdf;
+    background-color: #C85048;
+    padding: 20px 0 40px 0;
+}
+#header-p{
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
     border-bottom: 0.5px solid #dfdfdf;
-    background-color: aliceblue;
+    background-color: #C85048;
     padding: 20px 0 40px 0;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
 
 #inicio{
@@ -61,7 +75,7 @@ header{
 
 #Productos{
     display: flex;
-    justify-content: center;
+    justify-content:left;
     gap: 100px
 }
 
@@ -70,6 +84,126 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 20px
+}
+
+.productos-k{
+    display: flex;
+    justify-content: left;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.pokeballs-p{
+    width: 220px;               
+    border: 2px solid #979494;   
+    border-radius: 12px;        
+    padding: 15px;            
+    text-align: center;         
+    background-color: #9ebefad4;  
+}
+.superball-p{
+    width: 220px;               
+    border: 2px solid #979494;   
+    border-radius: 12px;        
+    padding: 15px;            
+    text-align: center;         
+    background-color: #9ebefad4;  
+}
+.ultraball-p{
+    width: 220px;               
+    border: 2px solid #979494;   
+    border-radius: 12px;        
+    padding: 15px;            
+    text-align: center;         
+    background-color: #9ebefad4;  
+}
+.masterball-p{
+    width: 220px;               
+    border: 2px solid #979494;   
+    border-radius: 12px;        
+    padding: 15px;            
+    text-align: center;         
+    background-color: #9ebefad4;  
+}
+.caramelos-xs{
+    width: 220px;               
+    border: 2px solid #979494;   
+    border-radius: 12px;        
+    padding: 15px;            
+    text-align: center;         
+    background-color: #9ebefad4;  
+}
+.caramelos-s{
+    width: 220px;               
+    border: 2px solid #979494;   
+    border-radius: 12px;        
+    padding: 15px;            
+    text-align: center;         
+    background-color: #9ebefad4;  
+}
+.caramelos-m{
+    width: 220px;               
+    border: 2px solid #979494;   
+    border-radius: 12px;        
+    padding: 15px;            
+    text-align: center; 
+    background-color: #9ebefad4;        
+}
+.caramelos-l{
+    width: 220px;               
+    border: 2px solid #979494;   
+    border-radius: 12px;        
+    padding: 15px;            
+    text-align: center;         
+    background-color: #9ebefad4;  
+}
+.piedra-trueno{
+    width: 220px;               
+    border: 2px solid #979494;   
+    border-radius: 12px;        
+    padding: 15px;            
+    text-align: center;         
+    background-color: #9ebefad4;  
+}
+.piedra-solar{
+    width: 220px;               
+    border: 2px solid #979494;   
+    border-radius: 12px;        
+    padding: 15px;            
+    text-align: center;         
+    background-color: #9ebefad4;  
+}
+.piedra-lunar{
+    width: 220px;               
+    border: 2px solid #979494;   
+    border-radius: 12px;        
+    padding: 15px;            
+    text-align: center;         
+    background-color: #9ebefad4;  
+}
+.piedra-hoja{
+    width: 220px;               
+    border: 2px solid #979494;   
+    border-radius: 12px;        
+    padding: 15px;            
+    text-align: center;         
+    background-color: #9ebefad4;  
+}
+.nombre-producto{ 
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #0b0a0a;           
+}
+.palabra {
+    border: 2px solid #e78484;    
+    background-color: #f4f8fb;       
+    border-radius: 16px;            
+    padding: 20px;                   
+    margin: 20px 0;                  
+    display: flex;
+    flex-direction: column;         
+    gap: 15px;
 }
 
 
