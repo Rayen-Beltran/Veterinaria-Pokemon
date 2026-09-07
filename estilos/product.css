@@ -1,0 +1,76 @@
+
+#Productos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.palabra {
+    border: 2px solid #e78484;    
+    background-color: #f4f8fb;       
+    border-radius: 16px;            
+    padding: 20px;                   
+    margin: 20px 0;                  
+    display: flex;
+    flex-direction: column;         
+    gap: 15px;
+    width: fit-content;            
+    max-width: 100%;             
+    box-sizing: border-box;
+}
+
+.productos-k {
+    display: flex;
+    justify-content: flex-start;   
+    gap: 20px;                    
+    flex-wrap: wrap;              
+}
+
+/* mañana agrupar los items */
+.pokeballs-p, .superball-p, .ultraball-p, .masterball-p,
+.caramelos-xs, .caramelos-s, .caramelos-m, .caramelos-l,
+.piedra-trueno, .piedra-solar, .piedra-lunar, .piedra-hoja {
+    width: 220px;                  
+    max-width: 100%;              
+    border: 2px solid #979494;   
+    border-radius: 12px;        
+    padding: 15px;            
+    text-align: center;         
+    background-color: #9ebefad4;  
+    box-sizing: border-box;
+}
+
+.productos-k img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.nombre-producto { 
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #0b0a0a;           
+}
+
+
+
+@media (max-width: 600px) {
+    #Productos {
+        align-items: center;       
+        padding: 10px;
+    }
+
+    .palabra {
+        width: 100%;
+        align-items: center;
+    }
+
+    .productos-k {
+        justify-content: center;
+    }
+}
