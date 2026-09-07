@@ -42,14 +42,14 @@ p{
 header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: left;
     border-bottom: 0.5px solid #dfdfdf;
-    background-color: #C85048;
+    background-color: #B84A42;
     padding: 20px 0 40px 0;
-    color: #dfdfdf;
+    color: #ffffff;
 }
 header a {
-    color: #dfdfdf;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -99,11 +99,10 @@ header a {
 .boton {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #2e8b57;
+    background-color: #256b45;
     text-decoration: none;
     border-radius: 6px;
-    color: #dfdfdf;
-    text-decoration: none;
+    color: #ffffff;
 }
 
 .seccion-index {
