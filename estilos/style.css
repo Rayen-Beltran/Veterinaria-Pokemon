@@ -43,6 +43,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: left;
+
     border-bottom: 0.5px solid #dfdfdf;
     background-color: #B84A42;
     padding: 20px 0 40px 0;
@@ -56,6 +57,13 @@ header a {
 .logo {
     height: 50px;
     width: auto;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
 
 #inicio{
@@ -80,13 +88,6 @@ header a {
     flex-direction: column;
     align-items: center;
     gap: 20px
-}
-
-
-#Productos{
-    display: flex;
-    justify-content: center;
-    gap: 100px
 }
 
 #info{
@@ -156,7 +157,6 @@ header a {
         grid-template-columns: 1fr;
     }
 }
-
 
 .seccion-blog {
     display: flex;
