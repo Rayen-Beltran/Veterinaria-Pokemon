@@ -41,15 +41,16 @@ p{
 
 header{
     display: flex;
-    align-items:center;
-    justify-content:left;
+    align-items: center;
+    justify-content: left;
+
     border-bottom: 0.5px solid #dfdfdf;
-    background-color: #C85048;
+    background-color: #B84A42;
     padding: 20px 0 40px 0;
-    color: #dfdfdf;
+    color: #ffffff;
 }
 header a {
-    color: #dfdfdf;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -99,11 +100,10 @@ footer{
 .boton {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #2e8b57;
+    background-color: #256b45;
     text-decoration: none;
     border-radius: 6px;
-    color: #dfdfdf;
-    text-decoration: none;
+    color: #ffffff;
 }
 
 .seccion-index {
@@ -114,9 +114,6 @@ footer{
     margin-top: 30px;
 }
 
-<<<<<<< HEAD
-
-=======
 .imgPoke{
     width: 300px;
     height: auto;
@@ -160,4 +157,75 @@ footer{
         grid-template-columns: 1fr;
     }
 }
->>>>>>> main
+
+.seccion-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #F1F0F8;
+    padding: 50px 40px;
+}
+
+.seccion-blog h2 {
+    text-align: center;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.blog-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.blog-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+}
+
+.blog-titulo {
+    color: #C85048;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 800;
+    font-size: 1.05rem;
+    text-decoration: none;
+    line-height: 1.3;
+}
+
+.blog-meta {
+    color: #777;
+    font-size: 0.85rem;
+    text-align: left;
+}
+
+.blog-texto {
+    color: #333;
+    font-size: 0.95rem;
+    text-align: left;
+    line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
+}
