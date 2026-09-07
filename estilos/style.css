@@ -43,7 +43,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: left;
-
+    flex-wrap: wrap;
     border-bottom: 0.5px solid #dfdfdf;
     background-color: #B84A42;
     padding: 20px 0 40px 0;
