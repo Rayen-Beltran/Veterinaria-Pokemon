@@ -1,19 +1,8 @@
-.caluga{
-    border: #000 solid;
-    background-color:#F1F0F8;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 #datos{
     height: auto;
     min-height: 60%;
-    width: 80%;
-    min-width: 40%;
+    width: 90%;
+    max-width: 500px;
     border: #000 solid;
     border-radius: 5%;
     background-color: #C85048;
@@ -24,15 +13,20 @@
 }
 
 #formulario{
-    height: 100%;
-    width: 100%;
+    height: 70%;
+    width: 80%;
     display:flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08)
 }
 
-#formulario.registrar{
-    height: 20%;
-    width: 20%;
+#formulario.btnRegistrar{
+    background-color: #F1F0F8;
+}
+
+a{
+    text-decoration: none;
+    color: #70B8F0;
 }
