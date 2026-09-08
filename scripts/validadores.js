@@ -3,7 +3,7 @@ function validarCampo(id, condicion, mensajeError) {
   const error = document.getElementById(`error-${id}`);
   const ok = condicion(contenido.value);
   if (error) error.textContent = ok ? "" : mensajeError;
-  input.style.borderColor = ok ? "#000" : "#C85048";
+  contenido.style.borderColor = ok ? "#000" : "#C85048";
 
   return ok;
 }

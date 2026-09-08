@@ -1,4 +1,4 @@
-document.getElementById("form-registro").addEventListener("submit", function (e) {
+document.getElementById("formulario").addEventListener("submit", function (e) {
   e.preventDefault();
   let valido = true;
 
@@ -28,7 +28,7 @@ document.getElementById("form-registro").addEventListener("submit", function (e)
 
   valido = validarCampo(
     "contraseña2",
-    contenido => contenido === document.getElementById("contrasena").value,
+    contenido => contenido === document.getElementById("contraseña2").value,
     "Las contraseñas no coinciden."
   ) && valido;
 
