@@ -4,19 +4,18 @@ const basePath = scriptSrc.substring(0, scriptSrc.indexOf('scripts/'));
 function inyectarHeader(){
   document.getElementById("header").innerHTML = `
     <a href="${basePath}index.html">
-      <img src="https://yt3.googleusercontent.com/ytc/AIdro_lUdOZuGBEOWyjiFl4M273jIjl_LObZoJJlVqd5mYdp4vA=s900-c-k-c0x00ffffff-no-rj" alt="Logo Veterinaria" class="logo">
+      <img src="https://rayen-beltran.github.io/Veterinaria-Pokemon/imagenes/logoPoke" alt="Logo Veterinaria" class="logo">
     </a>
     <h1 class="no-select">Veterinaria Huellitas</h1>
     <section>
-      <a href="${basePath}index.html">Inicio</a>
-      <a href="${basePath}paginas/nosotros.html">Nosotros</a>
-      <a href="${basePath}paginas/productos.html">Productos</a>
-      <a href="${basePath}paginas/blogs.html">Blog</a>
+      <a href="https://rayen-beltran.github.io/Veterinaria-Pokemon/index.html">Inicio</a>
+      <a href="https://rayen-beltran.github.io/Veterinaria-Pokemon/paginas/nosotros.html">Nosotros</a>
+      <a href="https://rayen-beltran.github.io/Veterinaria-Pokemon/paginas/productos.html">Productos</a>
+      <a href="https://rayen-beltran.github.io/Veterinaria-Pokemon/paginas/blogs.html">Blog</a>
     </section>
     <section>
-      <a href="${basePath}paginas/registroEntrenador.html">Registrate</a>
-      <a href="${basePath}paginas/inicioSesion.html">Iniciar Sesion</a>
-      <h2>${basePath}</h2>
+      <a href="https://rayen-beltran.github.io/Veterinaria-Pokemon/paginas/registroEntrenador.html">Registrate</a>
+      <a href="https://rayen-beltran.github.io/Veterinaria-Pokemon/paginas/inicioSesion.html">Iniciar Sesion</a>
     </section>
   `;
 }
