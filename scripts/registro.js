@@ -37,6 +37,26 @@ document.getElementById("formulario").addEventListener("submit", function (e) {
   if (valido) {
     alert(`¡Bienvenido a Huellitas, ${document.getElementById("nombre")}!`);
     this.reset();
-    document.getElementById("region").innerHTML = '<option value="">-- Seleccione su conjunto residencial --</option>';
+    document.getElementById("region").innerHTML = `<option value="" disabled selected>-- Seleccione su conjunto residencial --</option>
+    <option value="opcion1">Pueblo Paleta</option>
+    <option value="opcion2">Ciudad Verde</option>
+    <option value="opcion3">Ciudad Plateada</option>
+    <option value="opcion4">Ciudad Celeste</option>
+    <option value="opcion5">Ciudad Carmin</option>
+    <option value="opcion6">Pueblo Lavanda</option>
+    <option value="opcion7">Ciudad Azulona</option>
+    <option value="opcion8">Ciudad Azafran</option>
+    <option value="opcion9">Ciudad Fucsia</option>
+    <option value="opcion10">Isla Canela</option>`;
   }
 })
+
+function parsearNombre(id) {
+  try {
+    let input = document.getElementById(id);
+    let nombre = input.value;
+    return nombre;
+  } catch (e) {
+    console.error("Ocurrio un error al obtener el nombre:", e);
+  }
+}
