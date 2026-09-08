@@ -1,7 +1,7 @@
 function inyectarHeader(){
   document.getElementById("header").innerHTML = `
     <a href="https://rayen-beltran.github.io/Veterinaria-Pokemon/index.htm">
-      <img src="https://rayen-beltran.github.io/Veterinaria-Pokemon/imagenes/logoPoke" alt="Logo Veterinaria" class="logo">
+      <img src="https://rayen-beltran.github.io/Veterinaria-Pokemon/imagenes/logoPoke.webp" alt="Logo Veterinaria" class="logo">
     </a>
     <h1 class="no-select">Veterinaria Huellitas</h1>
     <section>
