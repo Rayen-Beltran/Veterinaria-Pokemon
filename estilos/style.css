@@ -120,10 +120,10 @@ footer{
     color: #ffffff;
 }
 
-/* ===== Sección "Conoce Quiénes Somos" (index) ===== */
+
 .seccion-index {
     padding: 60px 40px;
-    background-color: #F1F0F8; /* gris claro */
+    background-color: #F1F0F8;
 }
 
 #Nosotros {
@@ -159,11 +159,11 @@ footer{
     margin-bottom: 20px;
 }
 
-.titulo-naranja {
-    color: #f4841c;
+.titulo-rojo {
+    color: #A82029;
 }
 
-.titulo-verde {
+.titulo-celeste {
     color: #70B8F0;
 }
 
@@ -200,7 +200,6 @@ footer{
     }
 }
 
-/* ===== Sección "Nosotros" (página nosotros.html) ===== */
 .seccion-nosotros {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -238,7 +237,7 @@ footer{
     }
 }
 
-/* ===== Sección Blog ===== */
+
 .seccion-blog {
     display: flex;
     flex-direction: column;
@@ -311,9 +310,9 @@ footer{
     }
 }
 
-/* ===== Sección Servicios ===== */
+
 .seccion-servicios {
-    background-color: #70B8F0; /* celeste */
+    background-color: #A8B8C8;
     padding: 60px 40px;
     text-align: center;
     width: 100%;
@@ -353,12 +352,6 @@ footer{
     background-color: #C85048;
     color: #F1F0F8;
     transform: translateY(-5px);
-}
-
-.servicio-card i {
-    font-size: 3rem;
-    margin-bottom: 15px;
-    display: block;
 }
 
 .servicio-card p {
