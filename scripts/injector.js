@@ -16,12 +16,18 @@ function inyectarHeader(){
     <section>
       <a href="${basePath}paginas/registroEntrenador.html">Registrate</a>
       <a href="${basePath}paginas/inicioSesion.html">Iniciar Sesion</a>
+      <h2>${basePath}</h2>
     </section>
   `;
 }
 
 function inyectarFooter(){
-    document.getElementById("footer").innerHTML = '<div class="caluga"> <p>     Veterinaria Huellitas - Cuidando pokemones desde 1996 </p> <p>     © 2026 Veterinaria Huellitas. Todos los derechos reservados. </p> </div>';
+  document.getElementById("footer").innerHTML = `
+    <div class="caluga">
+      <p>Veterinaria Huellitas - Cuidando pokemones desde 1996</p>
+      <p>© 2026 Veterinaria Huellitas. Todos los derechos reservados.</p>
+    </div>
+  `;
 }
 
 
