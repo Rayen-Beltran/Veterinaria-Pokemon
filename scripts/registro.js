@@ -35,7 +35,7 @@ document.getElementById("formulario").addEventListener("submit", function (e) {
   ) && valido;
 
   if (valido) {
-    alert(`¡Bienvenido a Huellitas, ${document.getElementById("nombre")}!`);
+    alert(`¡Bienvenido a Huellitas, ${parsearNombre("nombre")}!`);
     this.reset();
     document.getElementById("region").innerHTML = `<option value="" disabled selected>-- Seleccione su conjunto residencial --</option>
     <option value="opcion1">Pueblo Paleta</option>
