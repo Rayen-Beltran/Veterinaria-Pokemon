@@ -8,79 +8,130 @@
     <link rel="stylesheet" href="../estilos/style.css">
 </head>
 <body>
-    <header id="header">
+    <header id="header"></header>
+        <div class="carrito">
+            <p> Carrito: <span id="contador">0</span> productos</p>
+        </div>
 
-    </header>
         <article id="Productos">
-            <div class="palabra">
-                <h2>Pokeballs</h2>
-                <div class="productos-k">
-
-                    <div class="pokeballs-p">
-                        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/02/latest/20231226202856/Pok%C3%A9_Ball_%28Ilustraci%C3%B3n%29.png/225px-Pok%C3%A9_Ball_%28Ilustraci%C3%B3n%29.png" alt="pokebola">
-                        <p class="nombre-producto">Pokeball</p>
-                    </div>
-                    <div class="superball-p">
-                        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/57/latest/20231226203004/Super_Ball_%28Ilustraci%C3%B3n%29.png/225px-Super_Ball_%28Ilustraci%C3%B3n%29.png" alt="Superball">
-                        <p class="nombre-producto">Superball</p>
-                   </div>
-
-
-                    <div class="ultraball-p">
-                        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c9/latest/20231226203124/Ultra_Ball_%28Ilustraci%C3%B3n%29.png/225px-Ultra_Ball_%28Ilustraci%C3%B3n%29.png" alt="Ultraball">
-                        <p class="nombre-producto">Ultraball</p>
-                    </div>
-
-                    <div class="masterball-p">
-                        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/a/a9/latest/20120802225204/Master_Ball_%28Ilustraci%C3%B3n%29.png" alt="Masterball">
-                        <p class="nombre-producto">Masterball</p>
-                    </div>
+        <div class="palabra">
+            <h2>Pokeballs</h2>
+            <div class="productos-k">
+                <div class="pokeballs-p">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/02/latest/20231226202856/Pok%C3%A9_Ball_%28Ilustraci%C3%B3n%29.png/225px-Pok%C3%A9_Ball_%28Ilustraci%C3%B3n%29.png" alt="pokebola">
+                    <p class="nombre-producto">Pokeball</p>
+                    <p class="precio-producto">$200</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
+                </div>
+                <div class="superball-p">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/57/latest/20231226203004/Super_Ball_%28Ilustraci%C3%B3n%29.png/225px-Super_Ball_%28Ilustraci%C3%B3n%29.png" alt="Superball">
+                    <p class="nombre-producto">Superball</p>
+                    <p class="precio-producto">$600</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
+                </div>
+                <div class="ultraball-p">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c9/latest/20231226203124/Ultra_Ball_%28Ilustraci%C3%B3n%29.png/225px-Ultra_Ball_%28Ilustraci%C3%B3n%29.png" alt="Ultraball">
+                    <p class="nombre-producto">Ultraball</p>
+                    <p class="precio-producto">$1.200</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
+                </div>
+                <div class="masterball-p">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/a/a9/latest/20120802225204/Master_Ball_%28Ilustraci%C3%B3n%29.png" alt="Masterball">
+                    <p class="nombre-producto">Masterball</p>
+                    <p class="precio-producto">$5.000</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
                 </div>
             </div>
-            <div class="palabra">
-                <h2>Caramelos</h2>
-                <div class="productos-k">
-                    <div class="caramelos-xs">
-                        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/d/d2/latest/20230102191804/Caramelo_experiencia_XS_EP.png" alt="Caramelo XS">
-                        <p class="nombre-producto">Caramelo XS</p>
-                    </div>
-                    <div class="caramelos-s">
-                        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/c/c3/latest/20230102191818/Caramelo_experiencia_S_EP.png" alt="Caramelo S">
-                        <p class="nombre-producto">Caramelo S</p>
-                    </div>
-                    <div class="caramelos-m">
-                        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/a/a5/latest/20230102191835/Caramelo_experiencia_M_EP.png" alt="Caramelo M">
-                        <p class="nombre-producto">Caramelo M</p>
-                    </div>
-                    <div class="caramelos-l">
-                        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/5/58/latest/20230102191848/Caramelo_experiencia_L_EP.png" alt="Caramelo L">
-                        <p class="nombre-producto">Caramelo L</p>
-                    </div>
+        </div>
+        <div class="palabra">
+            <h2>Caramelos</h2>
+            <div class="productos-k">
+                <div class="caramelos-xs">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/d/d2/latest/20230102191804/Caramelo_experiencia_XS_EP.png" alt="Caramelo XS">
+                    <p class="nombre-producto">Caramelo XS</p>
+                    <p class="precio-producto">$100</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
+                </div>
+                <div class="caramelos-s">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/c/c3/latest/20230102191818/Caramelo_experiencia_S_EP.png" alt="Caramelo S">
+                    <p class="nombre-producto">Caramelo S</p>
+                    <p class="precio-producto">$250</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
+                </div>
+                <div class="caramelos-m">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/a/a5/latest/20230102191835/Caramelo_experiencia_M_EP.png" alt="Caramelo M">
+                    <p class="nombre-producto">Caramelo M</p>
+                    <p class="precio-producto">$500</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
+                </div>
+                <div class="caramelos-l">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/5/58/latest/20230102191848/Caramelo_experiencia_L_EP.png" alt="Caramelo L">
+                    <p class="nombre-producto">Caramelo L</p>
+                    <p class="precio-producto">$1.000</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
                 </div>
             </div>
-            <div class="palabra">
-                <h2>Piedras Evolutivas</h2>
-                <div class="productos-k">
-                    <div class="piedra-trueno">
-                        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/3/30/latest/20230106130335/Piedra_trueno_EP.png" alt="Piedra Trueno">
-                        <p class="nombre-producto">Piedra Trueno</p>
-                    </div>
-                    <div class="piedra-solar">
-                        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/1/13/latest/20230106130543/Piedra_solar_EP.png" alt="piedra Sol">
-                        <p class="nombre-producto">Piedra Solar</p>
-                    </div>
-                    <div class="piedra-lunar">
-                        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/4/40/latest/20230106130527/Piedra_lunar_EP.png" alt="Piedra Lunar">
-                        <p class="nombre-producto">Piedra Lunar</p>
-                    </div>
-                    <div class="piedra-hoja">
-                        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/8/85/latest/20230106130605/Piedra_hoja_EP.png" alt="Caramelo L">
-                        <p class="nombre-producto">Piedra Hoja</p>
-                    </div>
+        </div>
+        <div class="palabra">
+            <h2>Piedras Evolutivas</h2>
+            <div class="productos-k">
+                <div class="piedra-trueno">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/3/30/latest/20230106130335/Piedra_trueno_EP.png" alt="Piedra Trueno">
+                    <p class="nombre-producto">Piedra Trueno</p>
+                    <p class="precio-producto">$2.100</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
+                </div>
+                <div class="piedra-solar">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/1/13/latest/20230106130543/Piedra_solar_EP.png" alt="piedra Sol">
+                    <p class="nombre-producto">Piedra Solar</p>
+                    <p class="precio-producto">$2.100</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
+                </div>
+                <div class="piedra-lunar">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/4/40/latest/20230106130527/Piedra_lunar_EP.png" alt="Piedra Lunar">
+                    <p class="nombre-producto">Piedra Lunar</p>
+                    <p class="precio-producto">$2.100</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
+                </div>
+                <div class="piedra-hoja">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/8/85/latest/20230106130605/Piedra_hoja_EP.png" alt="Piedra Hoja">
+                    <p class="nombre-producto">Piedra Hoja</p>
+                    <p class="precio-producto">$2.100</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
+                </div>
+                    <div class="piedra-agua">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/1/14/latest/20230106130249/Piedra_agua_EP.png" alt="Piedra Agua">
+                    <p class="nombre-producto">Piedra Agua</p>
+                    <p class="precio-producto">$2.100</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
+                </div>
+                </div>
+                    <div class="piedra-fuego">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/8/86/latest/20230106130317/Piedra_fuego_EP.png" alt="Piedra Fuego">
+                    <p class="nombre-producto">Piedra Fuego</p>
+                    <p class="precio-producto">$2.100</p>
+                    <button class="Eliminar" onclick="quitarDelCarrito()">Eliminar</button>
+                    <button class="Agregar" onclick="agregarAlCarrito()">Agregar al carrito</button>
                 </div>
             </div>
+        </div>
         </article>
+
     <footer id="footer"></footer>
 </body>
 <script src="../scripts/injector.js"></script>
+<script src="../scripts/tienda.js"></script>
 </html>
