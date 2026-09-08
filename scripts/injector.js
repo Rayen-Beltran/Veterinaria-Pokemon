@@ -13,8 +13,7 @@ function inyectarHeader(){
     <section>
       <a href="https://rayen-beltran.github.io/Veterinaria-Pokemon/paginas/registroEntrenador.html">Registrate</a>
       <a href="https://rayen-beltran.github.io/Veterinaria-Pokemon/paginas/inicioSesion.html">Iniciar Sesion</a>
-    </section>
-  `;
+    </section> `;
 }
 
 function inyectarFooter(){
@@ -22,8 +21,7 @@ function inyectarFooter(){
     <div class="caluga">
       <p>Veterinaria Huellitas - Cuidando pokemones desde 1996</p>
       <p>© 2026 Veterinaria Huellitas. Todos los derechos reservados.</p>
-    </div>
-  `;
+    </div> `;
 }
 
 
