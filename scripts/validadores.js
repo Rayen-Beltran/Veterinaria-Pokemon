@@ -10,7 +10,7 @@ function validarCampo(id, condicion, mensajeError) {
 
 function validarCorreo(correo) {
   const correoInput = document.getElementById(correo);
-  if (correoInput.validity.valid) {
+  if (correoInput != null) {
     return true;
   } else {
     return false;

@@ -28,7 +28,7 @@ document.getElementById("formulario").addEventListener("submit", function (e) {
 
   valido = validarCampo(
     "contraseña2",
-    contenido => contenido === document.getElementById("contraseña2").value,
+    contenido => contenido === document.getElementById("contraseña").value,
     "Las contraseñas no coinciden."
   ) && valido;
 
