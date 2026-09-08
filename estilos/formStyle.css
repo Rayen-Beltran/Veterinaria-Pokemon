@@ -1,3 +1,9 @@
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #datos{
     height: auto;
     min-height: 60%;
