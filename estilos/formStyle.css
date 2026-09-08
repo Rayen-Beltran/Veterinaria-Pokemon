@@ -25,3 +25,8 @@
 #formulario.btnRegistrar{
     background-color: #F1F0F8;
 }
+
+a{
+    text-decoration: none;
+    color: #70B8F0;
+}
