@@ -1,18 +1,18 @@
 function validarCampo(id, condicion, mensajeError) {
   const contenido = document.getElementById(id);
   const error = document.getElementById(`error-${id}`);
-  const ok = condicion(contenido.value);
-  if (error) error.textContent = ok ? "" : mensajeError;
-  contenido.style.borderColor = ok ? "#000" : "#C85048";
+  const valido = condicion(contenido.value);
+  if (error) error.textContent = valido ? "" : mensajeError;
+  contenido.style.borderColor = valido ? "#000" : "#C85048";
 
-  return ok;
+  return valido;
 }
 
 function validarCorreo(correo) {
   const correoInput = document.getElementById(correo);
   if (correoInput != null) {
-    return true;
+    return correoInput;
   } else {
-    return false;
+    return "";
   }
 }
