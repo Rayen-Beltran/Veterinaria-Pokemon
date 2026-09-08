@@ -7,12 +7,3 @@ function validarCampo(id, condicion, mensajeError) {
 
   return valido;
 }
-
-function validarCorreo(correo) {
-  const correoInput = document.getElementById(correo);
-  if (correoInput != null) {
-    return correoInput;
-  } else {
-    return "";
-  }
-}

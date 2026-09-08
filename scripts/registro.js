@@ -8,11 +8,7 @@ document.getElementById("formulario").addEventListener("submit", function (e) {
     "El nombre es obligatorio."
   ) && valido;
 
-  valido = validarCampo(
-    "correo",
-    validarCorreo,
-    "el correo es obligatorio."
-  ) && valido;
+  // No se valida el correo, porque se hace automaticamente con type="email"
 
   valido = validarCampo(
     "correo2",
