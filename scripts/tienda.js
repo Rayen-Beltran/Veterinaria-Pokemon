@@ -1,5 +1,3 @@
-
-
 let cantidadProductos = 0;
 
 function agregarAlCarrito() {
