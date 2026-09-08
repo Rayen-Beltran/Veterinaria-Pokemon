@@ -1,9 +1,6 @@
-const scriptSrc = document.currentScript.src;
-const basePath = scriptSrc.substring(0, scriptSrc.indexOf('scripts/'));
-
 function inyectarHeader(){
   document.getElementById("header").innerHTML = `
-    <a href="${basePath}index.html">
+    <a href="https://rayen-beltran.github.io/Veterinaria-Pokemon/index.htm">
       <img src="https://rayen-beltran.github.io/Veterinaria-Pokemon/imagenes/logoPoke" alt="Logo Veterinaria" class="logo">
     </a>
     <h1 class="no-select">Veterinaria Huellitas</h1>
